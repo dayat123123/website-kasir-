@@ -1,6 +1,7 @@
 <?php include 'header.php'; 
 include '../koneksi.php';
 $nama = $_SESSION['nama']; 
+$view = $koneksi->query("SELECT * FROM transaksi where nama = '$nama'");
 ?>
 
 <div class="content-wrapper">
@@ -41,7 +42,7 @@ $nama = $_SESSION['nama'];
                 </thead>
                 <tbody>
                   <?php 
-                  $view = $koneksi->query("SELECT * FROM transaksi where nama = '$nama'");
+                  
                   $no=1;
                   while ($row = $view->fetch_array()) { ?>
                   <tr>
