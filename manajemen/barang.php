@@ -38,7 +38,7 @@
                   <?php 
                   include '../koneksi.php';
                   $no=1;
-                  $data = mysqli_query($koneksi,"SELECT * FROM barang");
+                  $data = mysqli_query($koneksi,"SELECT * FROM barang order by nama_barang asc");
                   while($d = mysqli_fetch_array($data)){
                     ?>
                     <tr>

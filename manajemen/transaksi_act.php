@@ -7,7 +7,7 @@ $bayar = preg_replace('/\D/', '', $_POST['bayar']);
 // print_r(preg_replace('/\D/', '', $_POST['total']));
 
 // print_r($_SESSION['cart']) ;
-
+date_default_timezone_set('Asia/Jakarta');
 $tanggal_waktu = date('Y-m-d H:i:s');
 $nomor = rand(111111,999999);
 $total = $_POST['total'];

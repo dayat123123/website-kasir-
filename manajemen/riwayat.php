@@ -1,7 +1,7 @@
 <?php include 'header.php'; 
 include '../koneksi.php';
 $nama = $_SESSION['nama']; 
-$view = $koneksi->query("SELECT * FROM transaksi where nama = '$nama'");
+$view = $koneksi->query("SELECT * FROM transaksi where nama = '$nama' ORDER BY tanggal_waktu DESC");
 ?>
 
 <div class="content-wrapper">

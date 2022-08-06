@@ -29,7 +29,7 @@ if (isset($_SESSION['cart'])) {
 	<div class="row">
 		<div class="col-md-12">
 			<a href="keranjang_reset.php">Reset Keranjang</a> |
-			<a href="riwayat_transaksi.php">Riwayat Transaksi</a>
+			<a href="riwayat.php">Riwayat Transaksi</a>
 		</div>
 	</div><br>
 	<div class="row">
