@@ -27,7 +27,7 @@
               <table class="table table-bordered table-striped" id="table-datatable">
                 <thead>
                   <tr>
-                    <th width="1%">ID</th>
+                    <th width="1%">NO</th>
                     <th width="12%">KODE BARANG BARANG</th>
                     <th width="30%">NAMA BARANG</th>
                     <th width="15%">HARGA</th>

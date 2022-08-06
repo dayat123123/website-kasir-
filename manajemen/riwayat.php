@@ -32,7 +32,7 @@ $view = $koneksi->query("SELECT * FROM transaksi where nama = '$nama' ORDER BY t
               <table class="table table-bordered table-striped" id="table-datatable">
                 <thead>
                   <tr>
-                    <th width="2%">ID</th>
+                    <th width="2%">NO</th>
                     <th width="7%">NO. TRANSAKSI</th>
                     <th width="12%">TANGGAL</th>
                     <th width="20%">TOTAL</th>

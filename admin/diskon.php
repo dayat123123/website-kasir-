@@ -71,7 +71,7 @@ $view = $koneksi->query('SELECT * FROM barang');?>
               <table class="table table-bordered table-striped" id="table-datatable">
                 <thead>
                   <tr>
-                    <th width="1%">ID</th>
+                    <th width="1%">NO</th>
                     <th width="12%">NAMA BARANG</th>
                     <th width="15%">QTY</th>
                     <th width="10%">POTONGAN</th>

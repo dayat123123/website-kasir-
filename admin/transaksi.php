@@ -62,7 +62,7 @@ include '../koneksi.php';
                 </div>
               </div>
             </form>
-            
+
             <div class="btn-group pull-right">            
             </div>
           </div>
@@ -72,7 +72,7 @@ include '../koneksi.php';
               <table class="table table-bordered table-striped" >
                 <thead>
                   <tr>
-                    <th width="2%">ID</th>
+                    <th width="2%">NO</th>
                     <th width="7%">NO. TRANSAKSI</th>
                     <th width="12%">TANGGAL</th>
                     <th width="20%">TOTAL</th>
