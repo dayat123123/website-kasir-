@@ -93,10 +93,100 @@
       </div>
 
 
-    </section>
+   
  
 
 </div>
+
+ <!-- Main row -->
+ <div class="row">
+
+<!-- Left col -->
+<section class="col-lg-8">
+
+  <div class="nav-tabs-custom">
+
+    <ul class="nav nav-tabs pull-right">
+      <!-- <li><a href="#tab2" data-toggle="tab">Pemasukan</a></li> -->
+      <li class="active"><a href="#tab1" data-toggle="tab">Penjualan Toko Arsya</a></li>
+      <li class="pull-left header">Grafik</li>
+    </ul>
+
+    <div class="tab-content" style="padding: 20px">
+
+      <div class="chart tab-pane active" id="tab1">
+
+        
+        <h4 class="text-center">Grafik Data Penjualan Per <b>Bulan</b></h4>
+        <canvas id="grafik1" style="position: relative; height: 300px;"></canvas>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <h4 class="text-center">Grafik Data Penjualan Per <b>Tahun</b></h4>
+        <canvas id="grafik2" style="position: relative; height: 300px;"></canvas>
+
+      </div>
+      <div class="chart tab-pane" id="tab2" style="position: relative; height: 300px;">
+        b
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /.Left col -->
+
+
+<section class="col-lg-4">
+
+
+  <!-- Calendar -->
+  <div class="box box-solid bg-green-gradient">
+    <div class="box-header">
+      <i class="fa fa-calendar"></i>
+      <h3 class="box-title">Kalender</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body no-padding">
+      <!--The calendar -->
+      <div id="calendar" style="width: 100%"></div>
+    </div>
+    <!-- /.box-body -->
+  </div>
+  
+
+</section>
+<!-- right col -->
+</div>
+<!-- /.row (main row) -->
+
+
+
+
+
+
+
+
+
+
+</section>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
