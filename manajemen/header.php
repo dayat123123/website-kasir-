@@ -113,7 +113,7 @@
             </a>
           </li>
           <li>
-            <a href="riwayat_transaksi.php">
+            <a href="riwayat.php">
               <i class="fa fa-building"></i> <span>DATA TRANSAKSI</span>
             </a>
           </li>

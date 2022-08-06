@@ -17,7 +17,7 @@
       <section class="col-lg-12">
         <div class="box box-info">
           <div class="box-header">
-           
+          <h3 class="box-title">Data Barang</h3>
             <div class="btn-group pull-right">            
             </div>
           </div>

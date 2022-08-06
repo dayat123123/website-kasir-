@@ -123,7 +123,7 @@
             </a>
           </li>
           <li>
-            <a href="riwayat_transaksi.php">
+            <a href="transaksi.php">
               <i class="fa fa-building"></i> <span>DATA TRANSAKSI</span>
             </a>
           </li>
